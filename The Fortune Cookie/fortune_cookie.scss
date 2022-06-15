@@ -1,12 +1,7 @@
-body,
-html {
+body {
   margin: 0 auto;
   width: 100%;
-  background-image: url(./assets/fortune-bg.jpg);
   background-color: gold;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 main {
@@ -16,7 +11,6 @@ main {
 }
 
 .fortune-cookie {
-  background-color: darkgray;
   margin: 4rem;
   padding: 4rem;
   border-radius: 5px;
@@ -24,14 +18,20 @@ main {
 }
 
 .title {
+  margin: 0 auto;
   width: 100%;
-  background-color: gold;
+  background-image: url(./assets/fortune-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 2px 2px 5px black;
 
   h2 {
     display: flex;
     justify-content: center;
-    padding: 5rem;
+    padding: 3rem;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
   }
 }
 
@@ -42,9 +42,12 @@ main {
 
   input {
     margin: 2rem;
-    border: solid 2px black;
+    padding: 1rem;
+    border: solid 2px white;
     border-radius: 5px;
     box-shadow: 2px 2px 5px darkgray;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: none;
   }
 
   h3 {
@@ -57,6 +60,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
   .greeting {
     display: flex;
@@ -72,6 +76,7 @@ main {
     margin: 1rem;
     padding: 0.1rem 1rem;
     border-radius: 5px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
 
   #ans-question {
@@ -94,7 +99,7 @@ main {
     font-size: large;
     background-color: goldenrod;
     color: darkred;
-    border: solid 2px black;
+    border: solid 2px white;
     border-radius: 5px;
     box-shadow: 2px 2px 5px darkgray;
   }
@@ -111,4 +116,7 @@ main {
   border-radius: 5px;
   margin: 1rem;
   padding: 0.5rem 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: large;
 }
