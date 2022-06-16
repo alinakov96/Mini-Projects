@@ -215,20 +215,21 @@ main {
       text-shadow: 2px 2px 5px black;
     }
   }
-}
-.fortune-cookie {
-  max-width: 100%;
 
-  .input {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem;
-  }
+  .fortune-cookie {
+    max-width: 100%;
 
-  #submit-btn {
-    padding: 1rem 2rem;
-    font-size: medium;
+    .input {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 1rem;
+    }
+
+    #submit-btn {
+      padding: 1rem 2rem;
+      font-size: medium;
+    }
   }
 }
