@@ -22,7 +22,7 @@ document.getElementById("submit-btn").addEventListener("click", function () {
 
   user_question.value = "";
 
-  let randomNumber = Math.floor(Math.random() * 8);
+  let randomNumber = Math.floor(Math.random() * 20);
   let fortuneCookie = "";
   switch (randomNumber) {
     case 0:
